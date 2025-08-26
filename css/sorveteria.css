@@ -1,0 +1,19 @@
+
+.op{
+    opacity: 0.8;
+    position:absolute;
+    width: 100%;
+    top: 0;
+    z-index: 100%;
+ }
+
+ .margem{
+    margin-top: vh;
+    opacity: 99%;
+  }
+  #palavra{
+    color: black;
+}
+#palavra:hover {
+color: red; 
+}

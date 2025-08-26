@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gelatos Borelli</title>
+  <link rel="stylesheet" href="../../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+  <link rel="shortcut icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIJV7nKrzRCanii8heV9JPiBxYT7Jfv6plWw&s">
+   
+  <style>
+    
+
+    .produtos{
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap:40px;padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .produto {
+      text-align: center;
+      background: #fff;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .produto img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .letra a:hover{
+        color: green !important;
+    }
+    
+    
+
+
+   
+  </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100 " style="background-color: beige">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " >
+      <div class="container-fluid op fundo " style="background-color: rgb(219, 219, 198);" >
+        <a class="navbar-brand image margem " href="#"  ><img style="margin-left: 15vw; "
+            src="https://static.goomer.app/stores/10067/products/mobile-menu/templates/14614/logo.png" height="100"
+            width="130"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse margem" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="file:///D:/project%20selector/src/sites/projeto1/sorveteria2.html"
+                style="color: rgb(13, 26, 1); font-size: 25px;opacity: 100;margin-left: 15vw;">início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../projeto1/sorveteria2.html" style=" font-size: 25px;opacity: 100; color:  rgb(13, 26, 1); margin-left: 2vw;">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../projeto1/sorveteria2.html" style=" font-size: 25px;opacity: 100; color:  rgb(13, 26, 1);margin-left: 2vw;">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../projeto1/sorveteria2.html" style=" font-size: 25px;opacity: 100; color:  rgb(13, 26, 1);margin-left: 2vw;">Localização</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+        <br>
+        <br>
+        <div class="produto" style="background-color: beige;">
+        <p>Sabor genuinamente italiano</p>
+        <h2 style="color: rgb(33, 49, 6);">Conheça nossos gelatos</h2>
+        </div>
+
+
+        <div class="produtos" >
+        <div class="card produto" style="width: 18rem;">
+            <img src="https://gelatoborelli.com.br/wp-content/uploads/2024/10/156-P-Copinho-Fragola_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"><h2>Copo P</h2> Gelato artesanal feito com ingredientes de alta qualidade, proporcionando uma textura cremosa e sabores únicos.</p>
+            </div>
+          </div>
+          <div class="card produto" style="width: 18rem;">
+            <img src="https://gelatoborelli.com.br/wp-content/uploads/2024/10/Copo_M_Site.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"><h2>Copo M</h2> Gelato artesanal feito com ingredientes de alta qualidade, proporcionando uma textura cremosa e sabores únicos.</p>
+            </div>
+          </div>
+          <div class="card produto" style="width: 18rem;">
+            <img src="https://gelatoborelli.com.br/wp-content/uploads/2024/09/BORELLI-HORIZONTAL-GELATO-27-scaled.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"><h2>Copo G</h2> Gelato artesanal feito com ingredientes de alta qualidade, proporcionando uma textura cremosa e sabores únicos.</p>
+            </div>
+          </div>
+          <div class="card produto" style="width: 18rem;">
+            <img src="https://gelatoborelli.com.br/wp-content/uploads/2024/10/Cascao_Artigianale_Site.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"><h2>Cascão Artigianale</h2>Nosso carro chefe feito com até dois sabores de gelato a sua escolha e recheado com um de nossos cremes e casquinha artesanal.</p>
+            </div>
+          </div>
+          <div class="card produto" style="width: 18rem;">
+            <img src="https://gelatoborelli.com.br/wp-content/uploads/2024/09/BORELLI-HORIZONTAL-GELATO-55-scaled.jpg" class="card-img-top" alt="...">
+            <div class="card-body produto">
+              <p class="card-text"><h2>Cestino Artigianale</h2>Gelato de até quatro sabores com recheio de um dos nossos cremes e chantilly artesanal, servido em um cestino de cascão artesanal.</p>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+
+    <script src="../../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
